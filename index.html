@@ -3,70 +3,81 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <h1><img src =
-            "https://scontent-gmp1-1.xx.fbcdn.net/v/t39.8562-6/313408032_676073764084474_9080563414774037997_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6825c5&_nc_ohc=zZrEAK3ZnrEAX-lrBFL&_nc_ht=scontent-gmp1-1.xx&oh=00_AfDTC9N0cjC61lQmgqyrxOlRi9wqGYuXXdKcMlkuWl4Slw&oe=6456B0E6"width=40/>
-            Instagram <input type="search" value="검색"></h1>
-            
+        <div id="top">
+            <img src ="https://scontent-gmp1-1.xx.fbcdn.net/v/t39.8562-6/313408032_676073764084474_9080563414774037997_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6825c5&_nc_ohc=zZrEAK3ZnrEAX-lrBFL&_nc_ht=scontent-gmp1-1.xx&oh=00_AfDTC9N0cjC61lQmgqyrxOlRi9wqGYuXXdKcMlkuWl4Slw&oe=6456B0E6"width=40/>
+            <input type="search" value="검색">
+            <div></div>
         </div>
         <div id="profile">
-            <h2>
-                <img src="image/profile.jpg"
-    width="50px"/> kna.oo_ </h2>
-            <div>
-                
-                <button>프로필편집</button>
+            <div id="profile_pic">
+                <img class="circle_pic" src="image/profile.jpg"/> 
             </div>
-        </div>
-        <p>
-            <strong>
-            김나형 (Nahyeong Kim)
-            </strong><br/>
-            대학생
-        </p>
-        <p>
-            <a href="https://github.com/"></a>
-            https://github.com/</p>
-        <div class="highlight">
-            <div>
-            <img src="image/h1.jpg" height="35px">
-            </div>
-            <div>
-                 😍
-            </div>
-            <div>
-                <img src="image/hl 2.jpg" height="35px">
-            </div>
-            <div>
-                😻
+            <div id="profile_info">
+                <div id="id">kna.oo_ </div>
+                <button><strong>프로필 편집</strong></button>
             </div>
         </div>
         <div>
-            <div>
+            <p>
+                <strong> 김나형 (Nahyeong Kim)</strong>
+                <br/>대학생
+            </p>
+            <p>
+                <a href="https://github.com/">
+                https://github.com/
+                </a>
+            </p>
+        </div>
+        <div id="highlight_area">
+            <div class="highlight">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/h1.jpg" />
+                </div>
+                <div>
+                   😎
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/hl 2.jpg" />
+                </div>
+                <div>
+                    😻
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <div id="stat_bar">
+            <div class="stat">
                 게시물<br/>
                 133
             </div>
-            <div>
+            <div class="stat">
                 팔로워<br/>
                 408
             </div>
-            <div>
+            <div class="stat">
                 팔로우<br/>
                 189
             </div>
         </div>
         <div>아이콘이 들어갈 자리</div>
         <div>
-            <img src = "image/1.jpg"width="32%"/>
-            <img src = "image/2.jpg"width="32%"/>
-            <img src = "image/3.jpg"width="32%"/>
-            <img src = "image/4.jpg"width="32%"/>
-            <img src = "image/5.jpg"width="32%"/>
-            <img src = "image/6.jpg"width="32%"/>
-            <img src = "image/7.jpg"width="32%"/>
-            <img src = "image/8.jpg"width="32%"/>
-            <img src = "image/9.jpg"width="32%"/>
-
+            <div class="thumbnail_grid">
+                <img src = "image/thumbnails/1.jpg" class="thumbnail"/>
+                <img src = "image/thumbnails/2.jpg" class="thumbnail"/>
+                <img src = "image/thumbnails/3.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src = "image/thumbnails/4.jpg" class="thumbnail"/>
+                <img src = "image/thumbnails/5.jpg" class="thumbnail"/>
+                <img src = "image/thumbnails/6.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src = "image/thumbnails/7.jpg" class="thumbnail"/>
+                <img src = "image/thumbnails/8.jpg" class="thumbnail"/>
+                <img src = "image/thumbnails/9.jpg" class="thumbnail"/>
+            </div>
         </div>
     </body>
 </html>
